@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: './',
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || "/bahrain-comiccon"
+  base: process.env.VITE_BASE_PATH || "/bahrain-comiccon",
 });
