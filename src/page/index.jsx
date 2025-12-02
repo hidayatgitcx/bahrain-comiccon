@@ -34,7 +34,9 @@ export default function Main() {
         </div>
         <span className="flex w-[186px] h-[60.67px] bg-[url('/assets/logo-main.png')] justify-start items-center font-['Bangers'] text-[25.3040714263916px] font-normal leading-[26.343px] text-[#facc15] tracking-[2.11px] absolute top-[3.991px] left-[10.24px] text-left z-[6]">
         </span>
-        <button className="flex w-[188px] h-[61px] rounded-md justify-center items-center font-['Poppins'] text-[20px] font-semibold leading-[24px] text-black absolute top-[calc(50%-415px)] left-[1050px] text-center whitespace-nowrap z-[18] bg-red-500">
+        <button className="flex w-[188px] h-[61px] rounded-md justify-center items-center font-['Poppins'] text-[20px] font-semibold leading-[24px] text-black absolute top-[calc(50%-415px)] left-[1050px] text-center whitespace-nowrap z-[18] "
+          style={{background: "#FACC15",
+          background: "linear-gradient(90deg, rgba(250, 204, 21, 1) 0%, rgba(249, 115, 22, 1) 50%)",}}>
          Buy Tickets
         </button>
         <div className="w-[601px] h-[757px] bg-cover bg-no-repeat absolute top-[52px] left-[666px] z-[90]" style={{ backgroundImage: "url('/assets/img-hero.png')" }}/>
