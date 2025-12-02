@@ -34,12 +34,13 @@ export default function Main() {
         </div>
         <span className="flex w-[186px] h-[60.67px] bg-[url('/assets/logo-main.png')] justify-start items-center font-['Bangers'] text-[25.3040714263916px] font-normal leading-[26.343px] text-[#facc15] tracking-[2.11px] absolute top-[3.991px] left-[10.24px] text-left z-[6]">
         </span>
-        <button className="flex w-[188px] h-[61px] rounded-md justify-center items-center font-['Poppins'] text-[20px] font-semibold leading-[24px] text-black absolute top-[calc(50%-415px)] left-[1050px] text-center whitespace-nowrap z-[18] "
-          style={{background: "#FACC15",
-          background: "linear-gradient(90deg, rgba(250, 204, 21, 1) 0%, rgba(249, 115, 22, 1) 50%)",}}>
+        <button className="flex w-[188px] h-[61px] rounded-md justify-center items-center font-['Poppins'] text-[20px] font-semibold leading-[24px] text-black absolute top-[calc(50%-415px)] left-[1050px] text-center whitespace-nowrap z-[18] bg-red-500"
+          style={{
+            background: "#FACC15",
+            background: "linear-gradient(90deg, rgba(250, 204, 21, 1) 0%, rgba(249, 115, 22, 1) 50%)",}}>
          Buy Tickets
         </button>
-        <div className="w-[601px] h-[757px] bg-cover bg-no-repeat absolute top-[52px] left-[666px] z-[90]" style={{ backgroundImage: "url('/assets/img-hero.png')" }}/>
+        <div className="w-[601px] h-[757px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/JYG6Pc6m5z.png)] bg-cover bg-no-repeat absolute top-[52px] left-[666px] z-[90]" style={{ backgroundImage: "url('/assets/img-hero.png')" }}/>
         <div className="w-[1240px] h-[653px] bg-[#080808] rounded-[15px] absolute top-[76px] left-0 z-[2]">
           <div className="w-[194.61px] h-[36px] bg-[#facc15] rounded-full relative z-20 mt-[66px] mr-0 mb-0 ml-[96px]">
             <span className="flex w-[123.25px] h-[20px] justify-center items-center font-['Poppins'] text-[14px] font-bold leading-[20px] text-[#000] tracking-[0.7px] absolute top-[8px] left-[calc(50%-49.56px)] text-center uppercase whitespace-nowrap z-[22]">
@@ -245,13 +246,13 @@ export default function Main() {
         </div>
       </div>
       <div className="w-[1345px] h-[1533px] text-[0px] relative z-[198] mt-[81.18px] mr-0 mb-0 ml-[48px]">
-        <span className="flex w-[582px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] font-normal leading-[60px] text-[#000] tracking-[2px] relative text-center whitespace-nowrap z-[122] mt-[97px] mr-0 mb-0 ml-[381px] top-[80px]">
+        <span className="flex w-[582px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] top-[100px] font-normal leading-[60px] text-[#000] tracking-[2px] relative text-center whitespace-nowrap z-[122] mt-[97px] mr-0 mb-0 ml-[381px]">
           FEATURED GUESTS
         </span>
-        <span className="flex w-[543px] h-[28px] justify-center items-center font-['Poppins'] text-[32px] font-normal leading-[28px] text-[#000] relative text-center whitespace-nowrap z-[123] mt-[51px] mr-0 mb-0 ml-[399px] top-[80px]">
+        <span className="flex w-[543px] h-[28px] justify-center items-center font-['Poppins'] text-[32px] top-[100px] font-normal leading-[28px] text-[#000] relative text-center whitespace-nowrap z-[123] mt-[51px] mr-0 mb-0 ml-[399px]">
           Meet the stars joining us this year!
         </span>
-        <div className="w-[320.59px] h-[60px] bg-[#000] rounded-full relative z-[198] mt-[1167px] mr-0 mb-0 ml-[512px]">
+        <div className="w-[320.59px] h-[60px] bg-[#000] rounded-full relative z-[198] mt-[1167px] top-[100px] mr-0 mb-0 ml-[512px]">
           <span className="flex w-[190.438px] h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-black leading-[25px] text-[#f97316] tracking-[0.45px] absolute top-[calc(50%-13px)] left-[calc(50%-77.79px)] text-center uppercase whitespace-nowrap z-[200]">
             {" "}
             See Full Guest List
@@ -353,12 +354,650 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/WtseLG7Vyd.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[160]" />
           </div>
         </div>
-        
-
+        <div className="bg-[#000] rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[103px] right-[979.448px] overflow-hidden z-[163]">
+          <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/SShxV7JFeh.png)] bg-cover bg-no-repeat relative overflow-hidden z-[170] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
+          <span className="flex w-[188.853px] h-[60.091px] justify-start items-center font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left overflow-hidden z-[164] mt-[23.112px] mr-0 mb-0 ml-[24.037px]">
+            Alex "ProGamer"
+            <br />
+            Smith
+          </span>
+          <span className="block h-[22.188px] font-['Poppins'] text-[14.791666984558105px] font-semibold leading-[22.188px] text-[#f97316] relative text-left whitespace-nowrap z-[165] mt-[9.245px] mr-0 mb-0 ml-[24.037px]">
+            Gaming Influencer
+          </span>
+          <span className="flex w-[200.612px] h-[36.979px] justify-start items-center font-['Poppins'] text-[12.942708969116211px] font-normal leading-[18.49px] text-[#9ca3af] relative text-left overflow-hidden z-[166] mt-[12.943px] mr-0 mb-0 ml-[24.037px]">
+            Esports champion and popular
+            <br />
+            gaming content creator
+          </span>
+          <div className="w-[214.479px] h-[36.979px] bg-[#f97316] rounded-[9243.867px] relative z-[167] mt-[16.641px] mr-0 mb-0 ml-[24.037px]">
+            <span className="flex w-[98.054px] h-[21.263px] justify-center items-center font-['Poppins'] text-[14.791666984558105px] font-bold leading-[21.263px] text-[#000] absolute top-[calc(50%-11.09px)] left-[calc(50%-35.93px)] text-center whitespace-nowrap z-[169]">
+              Meet & Greet
+            </span>
+            <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/AiiMfwJ34L.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[168]" />
+          </div>
+        </div>
+        <div className="bg-[#000] rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[395.136px] right-[687.312px] overflow-hidden z-[171]">
+          <div className="w-[258.854px] h-[295.833px] relative overflow-hidden z-[178] mt-[1.849px] mr-0 mb-0 ml-[1.849px]">
+            <div className="w-[97.967px] h-[30.508px] bg-[#f97316] rounded-[9243.867px] relative z-[180] mt-[11.094px] mr-0 mb-0 ml-[146.095px]">
+              <span className="flex h-[15.716px] justify-start items-center font-['Poppins'] text-[11.093750953674316px] font-bold leading-[14.792px] text-[#000] absolute top-[7.396px] left-[14.792px] text-left uppercase whitespace-nowrap z-[181]">
+                New Guest!
+              </span>
+            </div>
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/e4WrbJtGdF.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[179]" />
+          </div>
+          <span className="block h-[29.583px] font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left whitespace-nowrap z-[172] mt-[24.036px] mr-0 mb-0 ml-[24.036px]">
+            Emma Rodriguez
+          </span>
+          <span className="block h-[22.188px] font-['Poppins'] text-[14.791666984558105px] font-semibold leading-[22.188px] text-[#f97316] relative text-left whitespace-nowrap z-[173] mt-[9.245px] mr-0 mb-0 ml-[24.036px]">
+            Sci-Fi Author
+          </span>
+          <span className="flex w-[193.013px] h-[36.979px] justify-start items-center font-['Poppins'] text-[12.942708969116211px] font-normal leading-[18.49px] text-[#9ca3af] relative text-left overflow-hidden z-[174] mt-[12.943px] mr-0 mb-0 ml-[24.036px]">
+            Bestselling novelist and
+            <br />
+            screenwriter for major studios
+          </span>
+          <div className="w-[214.479px] h-[36.979px] bg-[#f97316] rounded-[9243.867px] relative z-[175] mt-[16.641px] mr-0 mb-0 ml-[24.036px]">
+            <span className="flex w-[98.054px] h-[21.263px] justify-center items-center font-['Poppins'] text-[14.791666984558105px] font-bold leading-[21.263px] text-[#000] absolute top-[calc(50%-11.09px)] left-[calc(50%-35.92px)] text-center whitespace-nowrap z-[177]">
+              Meet & Greet
+            </span>
+            <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/9itaNBSu73.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[176]" />
+          </div>
+        </div>
+        <div className="bg-[#000] rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[687.271px] right-[395.177px] overflow-hidden z-[182]">
+          <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/0J3MNfL63a.png)] bg-cover bg-no-repeat relative overflow-hidden z-[189] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
+          <span className="flex w-[174.606px] h-[60.091px] justify-start items-center font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left overflow-hidden z-[183] mt-[23.112px] mr-0 mb-0 ml-[24.037px]">
+            Jake "Thunder"
+            <br />
+            Williams
+          </span>
+          <span className="block h-[22.188px] font-['Poppins'] text-[14.791666984558105px] font-semibold leading-[22.188px] text-[#f97316] relative text-left whitespace-nowrap z-[184] mt-[9.245px] mr-0 mb-0 ml-[24.037px]">
+            Stunt Coordinator
+          </span>
+          <span className="flex w-[214.507px] h-[36.979px] justify-start items-center font-['Poppins'] text-[12.942708969116211px] font-normal leading-[18.49px] text-[#9ca3af] relative text-left overflow-hidden z-[185] mt-[12.943px] mr-0 mb-0 ml-[24.037px]">
+            Action choreographer for
+            <br />
+            Hollywood's biggest blockbusters
+          </span>
+          <div className="w-[214.479px] h-[36.979px] bg-[#f97316] rounded-[9243.867px] relative z-[186] mt-[16.641px] mr-0 mb-0 ml-[24.037px]">
+            <span className="flex w-[98.054px] h-[21.263px] justify-center items-center font-['Poppins'] text-[14.791666984558105px] font-bold leading-[21.263px] text-[#000] absolute top-[calc(50%-11.09px)] left-[calc(50%-35.93px)] text-center whitespace-nowrap z-[188]">
+              Meet & Greet
+            </span>
+            <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/MPtBVPzVb0.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[187]" />
+          </div>
+        </div>
+        <div className="bg-[#000] rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[979.406px] right-[103.042px] overflow-hidden z-[190]">
+          <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/DSfdeWXp0a.png)] bg-cover bg-no-repeat relative overflow-hidden z-[197] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
+          <span className="flex w-[197.792px] h-[60.091px] justify-start items-center font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left overflow-hidden z-[191] mt-[23.112px] mr-0 mb-0 ml-[24.037px]">
+            Mia "GeekQueen"
+            <br />
+            Lee
+          </span>
+          <span className="block h-[22.188px] font-['Poppins'] text-[14.791666984558105px] font-semibold leading-[22.188px] text-[#f97316] relative text-left whitespace-nowrap z-[192] mt-[9.245px] mr-0 mb-0 ml-[24.037px]">
+            YouTuber / Influencer
+          </span>
+          <span className="flex w-[193.401px] h-[36.979px] justify-start items-center font-['Poppins'] text-[12.942708969116211px] font-normal leading-[18.49px] text-[#9ca3af] relative text-left overflow-hidden z-[193] mt-[12.943px] mr-0 mb-0 ml-[24.037px]">
+            Pop culture reviewer with 5M+
+            <br />
+            subscribers worldwide
+          </span>
+          <div className="w-[214.479px] h-[36.979px] bg-[#f97316] rounded-[9243.867px] relative z-[194] mt-[16.641px] mr-0 mb-0 ml-[24.037px]">
+            <span className="flex w-[98.054px] h-[21.263px] justify-center items-center font-['Poppins'] text-[14.791666984558105px] font-bold leading-[21.263px] text-[#000] absolute top-[calc(50%-11.09px)] left-[calc(50%-35.92px)] text-center whitespace-nowrap z-[196]">
+              Meet & Greet
+            </span>
+            <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/WnBVseFddK.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[195]" />
+          </div>
+        </div>
       </div>
-      
+      <span className="flex w-[626px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] font-normal leading-[60px] text-[#facc15] tracking-[2px] relative text-center whitespace-nowrap z-[201] mt-[130px] mr-0 mb-0 ml-[406.78px]">
+        WHAT'S HAPPENING
+      </span>
+      <span className="flex w-[500px] h-[28px] justify-center items-center font-['Poppins'] text-[24px] font-normal leading-[28px] text-[#9ca3af] relative text-center whitespace-nowrap z-[202] mt-[47px] mr-0 mb-0 ml-[469.86px]">
+        Explore activities across two exciting days
+      </span>
+      {/* <div className="flex w-[1232px] h-[532px] justify-between items-center relative z-[221] mt-[47px] mr-0 mb-0 ml-[104px]">
+        <div className="w-[389.33px] h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[203]">
+          <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ng7Fi5Dxqm.png)] bg-cover bg-no-repeat relative overflow-hidden z-[204] mt-[2px] mr-0 mb-0 ml-[2px]" />
+          <span className="flex w-[319.83px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[208] mt-[98px] mr-0 mb-0 ml-[34px]">
+            Show off your costume and win
+            <br />
+            amazing prizes. Professional judges and
+            <br />
+            multiple categories for all skill levels.
+          </span>
+          <div className="w-[111.84px] h-[24px] relative z-[209] mt-[27px] mr-0 mb-0 ml-[34px]">
+            <span className="flex w-[90.179px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[23px] text-[#000] absolute top-[calc(50%-12px)] left-[calc(50%-55.92px)] text-center whitespace-nowrap z-[210]">
+              Learn More
+            </span>
+            <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/PEwSU2ztDT.png)] bg-cover bg-no-repeat absolute top-[3px] left-[97.84px] z-[211]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#000] rounded-full absolute top-1/2 left-[32px] translate-x-0 translate-y-[45.83%] z-[205]">
+            <div className="w-[22.5px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/VTGRon6FXm.png)] bg-cover bg-no-repeat relative z-[206] mt-[13.5px] mr-0 mb-0 ml-[12.75px]" />
+          </div>
+          <span className="flex h-[32px] justify-start items-center font-['Poppins'] text-[24px] font-bold leading-[32px] text-[#000] absolute top-[296px] left-[96px] text-left whitespace-nowrap z-[207]">
+            Cosplay Contest
+          </span>
+        </div>
+        <div className="w-[389.33px] h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[212]">
+          <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ZBrY6ygAWZ.png)] bg-cover bg-no-repeat relative overflow-hidden z-[213] mt-[2px] mr-0 mb-0 ml-[2px]" />
+          <span className="flex w-[305.23px] h-[95px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[217] mt-[98px] mr-0 mb-0 ml-[34px]">
+            Experience the latest games and
+            <br />
+            compete in esports tournaments. Free
+            <br />
+            play zones and professional gaming
+            <br />
+            setups available.
+          </span>
+          <div className="w-[111.84px] h-[24px] relative z-[218] mt-[27px] mr-0 mb-0 ml-[34px]">
+            <span className="flex w-[90.179px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[23px] text-[#000] absolute top-[calc(50%-12px)] left-[calc(50%-55.92px)] text-center whitespace-nowrap z-[219]">
+              Learn More
+            </span>
+            <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/R3Cj5n9XQe.png)] bg-cover bg-no-repeat absolute top-[3px] left-[97.84px] z-[220]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#000] rounded-full absolute top-1/2 left-[32px] translate-x-0 translate-y-[45.83%] z-[214]">
+            <div className="w-[25px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/fd0p0ByFZv.png)] bg-cover bg-no-repeat relative z-[215] mt-[13.5px] mr-0 mb-0 ml-[11.5px]" />
+          </div>
+          <span className="flex h-[32px] justify-start items-center font-['Poppins'] text-[24px] font-bold leading-[32px] text-[#000] absolute top-[296px] left-[96px] text-left whitespace-nowrap z-[216]">
+            Gaming Arena
+          </span>
+        </div>
+        <div className="w-[389.34px] h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[221]">
+          <div className="w-[385.34px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/SjOZL7cfux.png)] bg-cover bg-no-repeat relative overflow-hidden z-[222] mt-[2px] mr-0 mb-0 ml-[2px]" />
+          <span className="flex w-[299.1px] h-[95px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[226] mt-[98px] mr-0 mb-0 ml-[34px]">
+            Discover incredible artwork and meet
+            <br />
+            talented artists. Commission custom
+            <br />
+            pieces and purchase unique
+            <br />
+            merchandise.
+          </span>
+          <div className="w-[111.84px] h-[24px] relative z-[227] mt-[27px] mr-0 mb-0 ml-[34px]">
+            <span className="flex w-[90.179px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[23px] text-[#000] absolute top-[calc(50%-12px)] left-[calc(50%-55.92px)] text-center whitespace-nowrap z-[228]">
+              Learn More
+            </span>
+            <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/zjGNw1NB2k.png)] bg-cover bg-no-repeat absolute top-[3px] left-[97.84px] z-[229]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#000] rounded-full absolute top-1/2 left-[32px] translate-x-0 translate-y-[45.83%] z-[223]">
+            <div className="w-[20px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/br8HCe1Tw5.png)] bg-cover bg-no-repeat relative z-[224] mt-[13.5px] mr-0 mb-0 ml-[14px]" />
+          </div>
+          <span className="flex h-[32px] justify-start items-center font-['Poppins'] text-[24px] font-bold leading-[32px] text-[#000] absolute top-[296px] left-[96px] text-left whitespace-nowrap z-[225]">
+            Artist Alley
+          </span>
+        </div>
+      </div> */}
+      {/* <div className="flex w-[1232px] h-[532px] justify-between items-center relative z-[248] mt-[32px] mr-0 mb-0 ml-[104px]">
+        <div className="w-[389.33px] h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[230]">
+          <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/W3awob0hMf.png)] bg-cover bg-no-repeat relative overflow-hidden z-[231] mt-[2px] mr-0 mb-0 ml-[2px]" />
+          <span className="flex w-[308.29px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[235] mt-[98px] mr-0 mb-0 ml-[34px]">
+            Shop exclusive merchandise from top
+            <br />
+            brands. Limited edition collectibles,
+            <br />
+            comics, figures, and pop culture items.
+          </span>
+          <div className="w-[111.84px] h-[24px] relative z-[236] mt-[27px] mr-0 mb-0 ml-[34px]">
+            <span className="flex w-[90.179px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[23px] text-[#000] absolute top-[calc(50%-12px)] left-[calc(50%-55.92px)] text-center whitespace-nowrap z-[237]">
+              Learn More
+            </span>
+            <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/VsxYZ8x7MQ.png)] bg-cover bg-no-repeat absolute top-[3px] left-[97.84px] z-[238]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#000] rounded-full absolute top-1/2 left-[32px] translate-x-0 translate-y-[45.83%] z-[232]">
+            <div className="w-[17.5px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/JFH4sqoEt1.png)] bg-cover bg-no-repeat relative z-[233] mt-[13.5px] mr-0 mb-0 ml-[15.25px]" />
+          </div>
+          <span className="flex h-[32px] justify-start items-center font-['Poppins'] text-[24px] font-bold leading-[32px] text-[#000] absolute top-[296px] left-[96px] text-left whitespace-nowrap z-[234]">
+            Merch Marketplace
+          </span>
+        </div>
+        <div className="w-[389.33px] h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[239]">
+          <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/wRg7Zsxrhq.png)] bg-cover bg-no-repeat relative overflow-hidden z-[240] mt-[2px] mr-0 mb-0 ml-[2px]" />
+          <span className="flex w-[315.45px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[244] mt-[98px] mr-0 mb-0 ml-[34px]">
+            Learn from industry experts and master
+            <br />
+            new skills. Interactive sessions covering
+            <br />
+            art, writing, cosplay, and more.
+          </span>
+          <div className="w-[111.84px] h-[24px] relative z-[245] mt-[27px] mr-0 mb-0 ml-[34px]">
+            <span className="flex w-[90.179px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[23px] text-[#000] absolute top-[calc(50%-12px)] left-[calc(50%-55.92px)] text-center whitespace-nowrap z-[246]">
+              Learn More
+            </span>
+            <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/OB1c3TX7W3.png)] bg-cover bg-no-repeat absolute top-[3px] left-[97.84px] z-[247]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#000] rounded-full absolute top-1/2 left-[32px] translate-x-0 translate-y-[45.83%] z-[241]">
+            <div className="w-[25px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/uC5xTTW9nF.png)] bg-cover bg-no-repeat relative z-[242] mt-[13.5px] mr-0 mb-0 ml-[11.5px]" />
+          </div>
+          <span className="flex h-[32px] justify-start items-center font-['Poppins'] text-[24px] font-bold leading-[32px] text-[#000] absolute top-[296px] left-[96px] text-left whitespace-nowrap z-[243]">
+            Workshops & Panels
+          </span>
+        </div>
+        <div className="w-[389.34px] h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[248]">
+          <div className="w-[385.34px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/zzfWyGVSvB.png)] bg-cover bg-no-repeat relative overflow-hidden z-[249] mt-[2px] mr-0 mb-0 ml-[2px]" />
+          <span className="flex w-[313.73px] h-[95px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[253] mt-[98px] mr-0 mb-0 ml-[34px]">
+            Get up close with your favorite
+            <br />
+            celebrities. Photo opportunities,
+            <br />
+            autograph sessions, and exclusive Q&A
+            <br />
+            panels.
+          </span>
+          <div className="w-[111.84px] h-[24px] relative z-[254] mt-[27px] mr-0 mb-0 ml-[34px]">
+            <span className="flex w-[90.179px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[23px] text-[#000] absolute top-[calc(50%-12px)] left-[calc(50%-55.92px)] text-center whitespace-nowrap z-[255]">
+              Learn More
+            </span>
+            <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ptG4PP5yO9.png)] bg-cover bg-no-repeat absolute top-[3px] left-[97.84px] z-[256]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#000] rounded-full absolute top-1/2 left-[32px] translate-x-0 translate-y-[45.83%] z-[250]">
+            <div className="w-[25px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/dU33tf5MfN.png)] bg-cover bg-no-repeat relative z-[251] mt-[13.5px] mr-0 mb-0 ml-[11.5px]" />
+          </div>
+          <span className="flex h-[32px] justify-start items-center font-['Poppins'] text-[24px] font-bold leading-[32px] text-[#000] absolute top-[296px] left-[96px] text-left whitespace-nowrap z-[252]">
+            Meet & Greet
+          </span>
+        </div>
+      </div> */}
+      {/* <div className="w-[1345px] h-[1264px] text-[0px] relative z-[348] mt-[122px] mr-0 mb-0 ml-[48px]">
+        <span className="flex w-[599px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] font-normal leading-[60px] text-[#000] tracking-[2px] relative text-center whitespace-nowrap z-[257] mt-[92px] mr-0 mb-0 ml-[372.48px]">
+          TICKETS & PASSES
+        </span>
+        <span className="flex w-[291px] h-[28px] justify-center items-center font-['Poppins'] text-[24px] font-normal leading-[28px] text-[#000] relative text-center whitespace-nowrap z-[258] mt-[36px] mr-0 mb-0 ml-[527.14px]">
+          Choose your experience
+        </span>
+        <span className="flex w-[322.465px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-center whitespace-nowrap z-[345] mt-[913px] mr-0 mb-0 ml-[510.92px]">
+          Group discounts available for 10+ tickets
+        </span>
+        <div className="w-[1345px] h-[1264px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/6kt8UTPiiV.png)] bg-cover bg-no-repeat absolute top-0 left-1/2 translate-x-[-50%] translate-y-0 z-[1]" />
+        <div className="w-[171.81px] h-[39.6px] bg-[#000] rounded-full border-solid border-[6px] border-[#dc2626] absolute top-[265.2px] left-[598.55px] box-content z-[343]">
+          <span className="flex h-[22px] justify-start items-center font-['Poppins'] text-[15.399999618530273px] font-bold leading-[22px] text-[#fff] absolute top-[8.8px] left-[26.4px] text-left uppercase whitespace-nowrap z-[344]">
+            Most Popular
+          </span>
+        </div>
+        <div className="bg-[#000] rounded-[24px] absolute top-[285px] bottom-[187px] left-[470.33px] right-[446.41px] z-[315]">
+          <div className="w-[88px] h-[88px] bg-[#dc2626] rounded-full relative z-[316] mt-[39.6px] mr-0 mb-0 ml-[170.12px]">
+            <div className="w-[37.13px] h-[33.004px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/MiTwxf22DW.png)] bg-cover bg-no-repeat relative z-[317] mt-[26.13px] mr-0 mb-0 ml-[25.44px]" />
+          </div>
+          <span className="flex w-[244.179px] h-[42.9px] justify-center items-center font-['Poppins'] text-[33px] font-bold leading-[39.6px] text-[#fff] relative text-center whitespace-nowrap z-[318] mt-[17.6px] mr-0 mb-0 ml-[92.25px]">
+            Premium Pass
+          </span>
+          <span className="flex w-[161.765px] h-[25.3px] justify-center items-center font-['Poppins'] text-[17.600000381469727px] font-normal leading-[25.3px] text-[#fef9c3] relative text-center whitespace-nowrap z-[319] mt-[5.5px] mr-0 mb-0 ml-[133.41px]">
+            Best value for fans
+          </span>
+          <div className="w-[349.06px] h-[66px] bg-[#dc2626] rounded-full relative z-[341] mt-[423.5px] mr-0 mb-0 ml-[39.6px]">
+            <span className="flex h-[27.5px] justify-center items-center font-['Poppins'] text-[19.799999237060547px] font-bold leading-[27.5px] text-[#fff] absolute top-[18.7px] left-[130.64px] right-[130.324px] text-center whitespace-nowrap z-[342]">
+              Buy Now
+            </span>
+          </div>
+          <span className="flex w-[189.267px] h-[73.7px] justify-center items-center font-['Poppins'] text-[52.79999923706055px] font-black leading-[52.8px] text-[#fff] absolute top-[244.2px] left-[calc(50%-134px)] text-center whitespace-nowrap z-[320]">
+            BHD 25
+          </span>
+          <span className="flex w-[74.675px] h-[27.5px] justify-center items-center font-['Poppins'] text-[19.799999237060547px] font-normal leading-[27.5px] text-[#fef9c3] absolute top-[278.3px] left-[calc(50%--59.63px)] text-center whitespace-nowrap z-[321]">
+            /2 days
+          </span>
+          <span className="flex h-[25.3px] justify-start items-center font-['Poppins'] text-[17.600000381469727px] font-medium leading-[25.3px] text-[#fff] absolute top-[334.4px] left-[68.2px] text-left whitespace-nowrap z-[325]">
+            2-day entry to the event
+          </span>
+          <div className="w-[15.4px] h-[17.6px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/sXAQ1Qd8DH.png)] bg-cover bg-no-repeat absolute top-[342.1px] left-[39.6px] z-[324]" />
+          <span className="flex h-[25.3px] justify-start items-center font-['Poppins'] text-[17.600000381469727px] font-medium leading-[25.3px] text-[#fff] absolute top-[382.8px] left-[68.2px] text-left whitespace-nowrap z-[328]">
+            Priority queue access
+          </span>
+          <div className="w-[15.4px] h-[17.6px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/WttwXp5o7m.png)] bg-cover bg-no-repeat absolute top-[390.5px] left-[39.6px] z-[327]" />
+          <span className="flex h-[25.3px] justify-start items-center font-['Poppins'] text-[17.600000381469727px] font-medium leading-[25.3px] text-[#fff] absolute top-[431.2px] left-[68.2px] text-left whitespace-nowrap z-[331]">
+            All panels & workshops
+          </span>
+          <div className="w-[15.4px] h-[17.6px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/2ecbbeca-c657-4d5a-aabb-778203dc510b.png)] bg-cover bg-no-repeat absolute top-[438.9px] left-[39.6px] z-[330]" />
+          <span className="flex h-[25.3px] justify-start items-center font-['Poppins'] text-[17.600000381469727px] font-medium leading-[25.3px] text-[#fff] absolute top-[479.6px] left-[68.2px] text-left whitespace-nowrap z-[334]">
+            Exclusive merchandise discount
+          </span>
+          <div className="w-[15.4px] h-[17.6px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/9eb87166-266a-47f9-951b-152127d795e3.png)] bg-cover bg-no-repeat absolute top-[487.3px] left-[39.6px] z-[333]" />
+          <span className="flex h-[25.3px] justify-start items-center font-['Poppins'] text-[17.600000381469727px] font-medium leading-[25.3px] text-[#fff] absolute top-[528px] left-[68.2px] text-left whitespace-nowrap z-[337]">
+            Premium seating areas
+          </span>
+          <div className="w-[15.4px] h-[17.6px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/4987c415-7487-428d-ae36-94242b38539e.png)] bg-cover bg-no-repeat absolute top-[535.7px] left-[39.6px] z-[336]" />
+          <span className="flex h-[25.3px] justify-start items-center font-['Poppins'] text-[17.600000381469727px] font-medium leading-[25.3px] text-[#fff] absolute top-[576.4px] left-[68.2px] text-left whitespace-nowrap z-[340]">
+            Event souvenir bag
+          </span>
+          <div className="w-[15.4px] h-[17.6px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/b317cf8c-324a-4d4c-bf13-a836c11774f8.png)] bg-cover bg-no-repeat absolute top-[584.1px] left-[39.6px] z-[339]" />
+        </div>
+        <div className="bg-[#000] rounded-[24px] absolute top-[321px] bottom-[223px] left-[49px] right-[906.67px] z-[259]">
+          <div className="w-[80px] h-[80px] bg-[#dc2626] rounded-full relative z-[260] mt-[34px] mr-0 mb-0 ml-[154.66px]">
+            <div className="w-[33.75px] h-[30px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ZhQjGXtg7Q.png)] bg-cover bg-no-repeat relative z-[261] mt-[23.75px] mr-0 mb-0 ml-[23.12px]" />
+          </div>
+          <span className="flex w-[224.484px] h-[36px] justify-center items-center font-['Poppins'] text-[30px] font-bold leading-[36px] text-[#fff] relative text-center whitespace-nowrap z-[262] mt-[16px] mr-0 mb-0 ml-[82.61px]">
+            Standard Pass
+          </span>
+          <span className="flex w-[179.059px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#9ca3af] relative text-center whitespace-nowrap z-[263] mt-[8px] mr-0 mb-0 ml-[105.3px]">
+            Perfect for casual fans
+          </span>
+          <div className="w-[321.33px] h-[60px] bg-[#dc2626] rounded-full relative z-[282] mt-[340px] mr-0 mb-0 ml-[34px]">
+            <span className="flex h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-bold leading-[25px] text-[#fff] absolute top-[17px] left-[120.77px] right-[120.457px] text-center whitespace-nowrap z-[283]">
+              Buy Now
+            </span>
+          </div>
+          <span className="flex w-[164.057px] h-[67px] justify-center items-center font-['Poppins'] text-[48px] font-black leading-[48px] text-[#fff] absolute top-[220px] left-[calc(50%-105.54px)] text-center whitespace-nowrap z-[264]">
+            BHD 15
+          </span>
+          <span className="flex w-[43.381px] h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-normal leading-[25px] text-[#9ca3af] absolute top-[251px] left-[calc(50%--62.48px)] text-center whitespace-nowrap z-[265]">
+            /day
+          </span>
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] absolute top-[302px] left-[60px] text-left whitespace-nowrap z-[269]">
+            1-day entry to the event
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/FM5HdDsFRS.png)] bg-cover bg-no-repeat absolute top-[309px] left-[34px] z-[268]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] absolute top-[346px] left-[60px] text-left whitespace-nowrap z-[272]">
+            Access to all exhibitions
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/uVBVanjGUy.png)] bg-cover bg-no-repeat absolute top-[353px] left-[34px] z-[271]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] absolute top-[390px] left-[60px] text-left whitespace-nowrap z-[275]">
+            General queue access
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/bxvyGVLmec.png)] bg-cover bg-no-repeat absolute top-[397px] left-[34px] z-[274]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] absolute top-[434px] left-[60px] text-left whitespace-nowrap z-[278]">
+            Gaming arena access
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/Z6cxSVkfJc.png)] bg-cover bg-no-repeat absolute top-[441px] left-[34px] z-[277]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] absolute top-[478px] left-[60px] text-left whitespace-nowrap z-[281]">
+            Artist alley browsing
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/X7R5x9Nn38.png)] bg-cover bg-no-repeat absolute top-[485px] left-[34px] z-[280]" />
+        </div>
+        <div className="bg-[#000] rounded-[24px] absolute top-[321px] bottom-[223px] left-[930.59px] right-[25.07px] z-[284]">
+          <div className="w-[80px] h-[80px] bg-[#dc2626] rounded-full relative z-[285] mt-[34px] mr-0 mb-0 ml-[154.67px]">
+            <div className="w-[33.75px] h-[30px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ugU82jxtCt.png)] bg-cover bg-no-repeat relative z-[286] mt-[23.75px] mr-0 mb-0 ml-[23.12px]" />
+          </div>
+          <span className="flex w-[128.809px] h-[36px] justify-center items-center font-['Poppins'] text-[30px] font-bold leading-[36px] text-[#fff] relative text-center whitespace-nowrap z-[287] mt-[16px] mr-0 mb-0 ml-[130.47px]">
+            VIP Pass
+          </span>
+          <span className="flex w-[160.154px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#e9d5ff] relative text-center whitespace-nowrap z-[288] mt-[8px] mr-0 mb-0 ml-[114.75px]">
+            Ultimate experience
+          </span>
+          <div className="w-[321.34px] h-[60px] bg-[#dc2626] rounded-full relative z-[313] mt-[428px] mr-0 mb-0 ml-[34px]">
+            <span className="flex h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-bold leading-[25px] text-[#fff] absolute top-[17px] left-[120.78px] right-[120.457px] text-center whitespace-nowrap z-[314]">
+              Buy Now
+            </span>
+          </div>
+          <span className="flex w-[169.491px] h-[67px] justify-center items-center font-['Poppins'] text-[48px] font-black leading-[48px] text-[#fff] absolute top-[220px] left-[calc(50%-120.52px)] text-center whitespace-nowrap z-[289]">
+            BHD 75
+          </span>
+          <span className="flex w-[67.894px] h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-normal leading-[25px] text-[#e9d5ff] absolute top-[251px] left-[calc(50%--52.92px)] text-center whitespace-nowrap z-[290]">
+            /2 days
+          </span>
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[24px] text-[#f3e8ff] absolute top-[302px] left-[60px] text-left whitespace-nowrap z-[294]">
+            VIP lounge access
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/LURKEoJaRp.png)] bg-cover bg-no-repeat absolute top-[309px] left-[34px] z-[293]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[24px] text-[#f3e8ff] absolute top-[346px] left-[60px] text-left whitespace-nowrap z-[297]">
+            Fast-track entry (skip lines)
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/vA6PnQGJ47.png)] bg-cover bg-no-repeat absolute top-[353px] left-[34px] z-[296]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[24px] text-[#f3e8ff] absolute top-[390px] left-[60px] text-left whitespace-nowrap z-[300]">
+            Exclusive meet & greet sessions
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/rYnMGsRBXL.png)] bg-cover bg-no-repeat absolute top-[397px] left-[34px] z-[299]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[24px] text-[#f3e8ff] absolute top-[434px] left-[60px] text-left whitespace-nowrap z-[303]">
+            Signed merchandise included
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/wZ123bN16h.png)] bg-cover bg-no-repeat absolute top-[441px] left-[34px] z-[302]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[24px] text-[#f3e8ff] absolute top-[478px] left-[60px] text-left whitespace-nowrap z-[306]">
+            Premium photo opportunities
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/Ow3G1DfNJP.png)] bg-cover bg-no-repeat absolute top-[485px] left-[34px] z-[305]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[24px] text-[#f3e8ff] absolute top-[522px] left-[60px] text-left whitespace-nowrap z-[309]">
+            Complimentary food & beverages
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/VQAtYoeEWm.png)] bg-cover bg-no-repeat absolute top-[529px] left-[34px] z-[308]" />
+          <span className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[24px] text-[#f3e8ff] absolute top-[566px] left-[60px] text-left whitespace-nowrap z-[312]">
+            Exclusive VIP merchandise
+          </span>
+          <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/8vKrnvTpda.png)] bg-cover bg-no-repeat absolute top-[573px] left-[34px] z-[311]" />
+        </div>
+        <span className="flex w-[248.803px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[23px] text-[#000] absolute top-[calc(50%--537px)] left-[calc(50%-112.7px)] text-center whitespace-nowrap z-[348]">
+          {" "}
+          View All Ticket Options & FAQs
+        </span>
+        <div className="w-[16px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/pzabHvyYL8.png)] bg-cover bg-no-repeat absolute top-[1172px] left-[535.8px] z-[347]" />
+      </div> */}
+      {/* <span className="flex w-[578px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] font-normal leading-[60px] text-[#f97316] tracking-[2px] relative text-center whitespace-nowrap z-[349] mt-[136px] mr-0 mb-0 ml-[432px]">
+        RELIVE THE MAGIC
+      </span>
+      <span className="flex w-[540px] h-[28px] justify-center items-center font-['Poppins'] text-[24px] font-normal leading-[28px] text-[#9ca3af] relative text-center whitespace-nowrap z-[350] mt-[32px] mr-0 mb-0 ml-[451px]">
+        Watch highlights from last year's Comic Con!
+      </span> */}
+      {/* <div className="w-[1152px] h-[651.5px] bg-[rgba(255,255,255,0)] rounded-[24px] border-solid border-4 border-[#f97316] relative overflow-hidden z-[361] mt-[52px] mr-0 mb-0 ml-[145px]">
+        <div className="w-[1144px] h-[643.5px] relative z-[362] mt-[4px] mr-0 mb-0 ml-[4px]">
+          <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/85a223c3-f9b4-428c-be33-7f5c1a6fbb51.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[363]" />
+          <div className="bg-[rgba(0,0,0,0.4)] absolute top-0 bottom-0 left-0 right-0 z-[364]">
+            <div className="w-[96px] h-[96px] bg-[#f97316] rounded-full relative shadow-[0_0_22.251px_0_rgba(255,215,0,0.54)] z-[365] mt-[273.75px] mr-0 mb-0 ml-[524px]">
+              <div className="w-[22.5px] h-[30px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/6a1e8191-08ba-4697-8277-ba96fe6f57d6.png)] bg-cover bg-no-repeat relative z-[366] mt-[31.75px] mr-0 mb-0 ml-[40.75px]" />
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* <div className="flex w-[1152px] h-[124px] justify-between items-center relative z-[358] mt-[32px] mr-0 mb-0 ml-[145px]">
+        <div className="w-[368px] h-[124px] shrink-0 text-[0px] bg-[#000] rounded-[16px] border-solid border-2 border-[#f97316] relative z-[352]">
+          <span className="flex w-[91.501px] h-[40px] justify-center items-center font-['Poppins'] text-[36px] font-black leading-[40px] text-[#f97316] relative text-center whitespace-nowrap z-[353] mt-[26px] mr-0 mb-0 ml-[138.42px]">
+            25K+
+          </span>
+          <span className="flex w-[158.433px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] relative text-center whitespace-nowrap z-[354] mt-[10px] mr-0 mb-0 ml-[104.94px]">
+            Attendees Last Year
+          </span>
+        </div>
+        <div className="w-[368px] h-[124px] shrink-0 text-[0px] bg-[#000] rounded-[16px] border-solid border-2 border-[#f97316] relative z-[355]">
+          <span className="flex w-[82.126px] h-[40px] justify-center items-center font-['Poppins'] text-[36px] font-black leading-[40px] text-[#f97316] relative text-center whitespace-nowrap z-[356] mt-[26px] mr-0 mb-0 ml-[143.09px]">
+            150+
+          </span>
+          <span className="flex w-[131.392px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] relative text-center whitespace-nowrap z-[357] mt-[10px] mr-0 mb-0 ml-[118.45px]">
+            Celebrity Guests
+          </span>
+        </div>
+        <div className="w-[368px] h-[124px] shrink-0 text-[0px] bg-[#000] rounded-[16px] border-solid border-2 border-[#f97316] relative z-[358]">
+          <span className="flex w-[91.611px] h-[40px] justify-center items-center font-['Poppins'] text-[36px] font-black leading-[40px] text-[#f97316] relative text-center whitespace-nowrap z-[359] mt-[26px] mr-0 mb-0 ml-[138.36px]">
+            500+
+          </span>
+          <span className="flex w-[144.902px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#d1d5db] relative text-center whitespace-nowrap z-[360] mt-[10px] mr-0 mb-0 ml-[111.7px]">
+            Exhibitors & Artists
+          </span>
+        </div>
+      </div> */}
+      {/* <div className="w-[1441px] h-[1107px] text-[0px] bg-[#090909] relative z-[3] mt-[154.5px] mr-0 mb-0 ml-0">
+        <span className="flex w-[688px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] font-normal leading-[60px] text-[#facc15] tracking-[2px] relative text-center whitespace-nowrap z-[367] mt-[126px] mr-0 mb-0 ml-[375.33px]">
+          COMMUNITY GALLERY
+        </span>
+        <span className="flex w-[608px] h-[28px] justify-center items-center font-['Poppins'] text-[24px] font-normal leading-[28px] text-[#9ca3af] relative text-center whitespace-nowrap z-[368] mt-[41px] mr-0 mb-0 ml-[415.86px]">
+          Amazing moments from our incredible community
+        </span>
+        <div className="flex w-[1232px] h-[288px] justify-between items-center relative z-[375] mt-[65px] mr-0 mb-0 ml-[104px]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[369]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/jKnu82mWKZ.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[370]" />
+          </div>
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[371]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/njyds7fT0f.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[372]" />
+          </div>
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[373]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/xGGQWSE6Fp.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[374]" />
+          </div>
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[375]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/iZH3Kusqj8.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[376]" />
+          </div>
+        </div>
+        <div className="flex w-[1232px] h-[288px] justify-between items-center relative z-[383] mt-[16px] mr-0 mb-0 ml-[104px]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[377]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/QgQF8crLKK.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[378]" />
+          </div>
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[379]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/Y3Ei8qof13.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[380]" />
+          </div>
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[381]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/U6c6YzLqdY.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[382]" />
+          </div>
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] relative overflow-hidden z-[383]">
+            <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/smBjiDPJ9N.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[384]" />
+          </div>
+        </div>
+        <div className="w-[301.25px] h-[60px] bg-[#facc15] rounded-full relative z-[385] mt-[65px] mr-0 mb-0 ml-[569.38px]">
+          <span className="flex w-[189.347px] h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-black leading-[25px] text-[#000] tracking-[0.45px] absolute top-[calc(50%-13px)] left-[calc(50%-78.38px)] text-center uppercase whitespace-nowrap z-[387]">
+            {" "}
+            View Full Gallery
+          </span>
+          <div className="w-[20.25px] h-[18px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/RDnj0A96dZ.png)] bg-cover bg-no-repeat absolute top-[20.25px] left-[40px] z-[386]" />
+        </div>
+      </div> */}
+      {/* <div className="w-[1436px] h-[629.5px] relative overflow-hidden z-[388] mt-0 mr-0 mb-0 ml-0">
+        <div className="w-[896px] h-[437.5px] relative z-[390] mt-[96px] mr-0 mb-0 ml-[270px]">
+          <div className="w-[60px] h-[60px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/hXiH37nZ4q.png)] bg-cover bg-no-repeat relative z-[391] mt-[-14px] mr-0 mb-0 ml-[418px]" />
+          <span className="flex w-[383.909px] h-[60px] justify-center items-center font-['Bangers'] text-[60px] font-normal leading-[60px] text-[#000] tracking-[2px] relative text-center whitespace-nowrap z-[392] mt-[15.5px] mr-0 mb-0 ml-[256.22px]">
+            STAY IN THE LOOP!
+          </span>
+          <span className="flex w-[691.535px] h-[28px] justify-center items-center font-['Poppins'] text-[20px] font-normal leading-[28px] text-[#000] relative text-center whitespace-nowrap z-[393] mt-[16px] mr-0 mb-0 ml-[102.39px]">
+            Get exclusive updates, early bird tickets, and special announcements
+          </span>
+          <div className="w-[896px] h-[160px] bg-[rgba(0,0,0,0.1)] rounded-[24px] relative z-[394] mt-[32px] mr-0 mb-0 ml-0">
+            <div className="w-[828px] h-[56px] relative z-[395] mt-[34px] mr-0 mb-0 ml-[34px]">
+              <div className="bg-[#000] rounded-full absolute top-0 bottom-0 left-0 right-[236.81px] overflow-hidden z-[396]">
+                <div className="w-[543.19px] h-[25px] relative overflow-hidden z-[397] mt-[15.5px] mr-0 mb-0 ml-[24px]">
+                  <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-medium leading-[23px] text-[#fff] absolute top-px left-0 text-left whitespace-nowrap z-[398]">
+                    Enter your email address
+                  </span>
+                </div>
+              </div>
+              <div className="w-[220.81px] h-[56px] bg-[#facc15] rounded-full absolute top-0 left-[607.19px] z-[399]">
+                <span className="flex w-[141.119px] h-[23px] justify-center items-center font-['Poppins'] text-[16px] font-black leading-[23px] text-[#000] tracking-[0.4px] absolute top-[calc(50%-12px)] left-[calc(50%-70.4px)] text-center uppercase whitespace-nowrap z-[400]">
+                  Subscribe Now
+                </span>
+              </div>
+            </div>
+            <span className="flex w-[420.244px] h-[20px] justify-center items-center font-['Poppins'] text-[14px] font-normal leading-[20px] text-[#000] relative text-center whitespace-nowrap z-[401] mt-[16px] mr-0 mb-0 ml-[238.06px]">
+              Join 50,000+ fans already subscribed. Unsubscribe anytime.
+            </span>
+          </div>
+          <div className="w-[761.565px] h-[25px] relative z-[407] mt-[51px] mr-0 mb-0 ml-[56.63px]">
+            <div className="w-[21px] h-[24px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/NEVhymDMuW.png)] bg-cover bg-no-repeat absolute top-0 left-0 z-[402]" />
+            <div className="w-[24px] h-[24px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/km5LiKKFRC.png)] bg-cover bg-no-repeat absolute top-0 left-[309.9px] z-[404]" />
+            <div className="w-[27px] h-[24px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/maicFDH4Nx.png)] bg-cover bg-no-repeat absolute top-0 left-[634.82px] z-[406]" />
+            <span className="flex w-[136.696px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[24px] text-[#000] absolute top-px left-[calc(50%-347.78px)] text-center whitespace-nowrap z-[403]">
+              Event Reminders
+            </span>
+            <span className="flex w-[127.307px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[24px] text-[#000] absolute top-px left-[calc(50%-34.88px)] text-center whitespace-nowrap z-[405]">
+              Exclusive Offers
+            </span>
+            <span className="flex w-[87.745px] h-[24px] justify-center items-center font-['Poppins'] text-[16px] font-semibold leading-[24px] text-[#000] absolute top-px left-[calc(50%--293.04px)] text-center whitespace-nowrap z-[407]">
+              VIP Access
+            </span>
+          </div>
+        </div>
+        <div className="bg-[length:100%_100%] bg-no-repeat opacity-20 absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[389]" />
+      </div> */}
       <div className="w-[1436px] h-[447px] bg-[#000] border-solid border-b-2 border-b-[#facc15] relative z-[408] mt-[0.5px] mr-0 mb-0 ml-0">
-        
+        {/* <div className="w-[1180.241px] h-[67px] relative z-[453] mt-[66px] mr-0 mb-0 ml-[102px]">
+          <span className="flex h-[28px] justify-start items-center font-['Poppins'] text-[18px] font-bold leading-[28px] text-[#fff] absolute top-0 left-[512px] text-left whitespace-nowrap z-[423]">
+            Quick Links
+          </span>
+          <span className="flex h-[28px] justify-start items-center font-['Poppins'] text-[18px] font-bold leading-[28px] text-[#fff] absolute top-0 left-[768px] text-left whitespace-nowrap z-[431]">
+            For Vendors
+          </span>
+          <span className="flex h-[28px] justify-start items-center font-['Poppins'] text-[18px] font-bold leading-[28px] text-[#fff] absolute top-0 left-[1024px] text-left whitespace-nowrap z-[438]">
+            Legal
+          </span>
+          <div className="w-[64px] h-[62px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/73707f72-a978-400f-a315-f12c270d2454.png)] bg-cover bg-no-repeat absolute top-[2px] left-0 z-[453]" />
+          <span className="flex h-[36px] justify-start items-center font-['Bangers'] text-[30px] font-normal leading-[36px] text-[#facc15] tracking-[2px] absolute top-[4px] left-[76px] text-left whitespace-nowrap z-[410]">
+            BAHRAIN COMIC CON
+          </span>
+          <span className="flex h-[20px] justify-start items-center font-['Poppins'] text-[14px] font-normal leading-[20px] text-[#9ca3af] absolute top-[40px] left-[76px] text-left whitespace-nowrap z-[411]">
+            2025 Edition
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[44px] left-[512px] text-left whitespace-nowrap z-[425]">
+            Tickets
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[44px] left-[768px] text-left whitespace-nowrap z-[433]">
+            Exhibitor Info
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[44px] left-[1024px] text-left whitespace-nowrap z-[440]">
+            Terms & Conditions
+          </span>
+        </div>
+        <div className="w-[1132.427px] h-[79px] relative z-[442] mt-[15px] mr-0 mb-0 ml-[102px]">
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[512px] text-left whitespace-nowrap z-[426]">
+            Guests
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[768px] text-left whitespace-nowrap z-[434]">
+            Artist Alley
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[1024px] text-left whitespace-nowrap z-[441]">
+            Privacy Policy
+          </span>
+          <span className="flex w-[431.83px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#9ca3af] absolute top-[8px] left-0 text-left z-[412]">
+            Bringing pop culture to Bahrain. The ultimate
+            <br />
+            celebration of comics, gaming, anime, and everything
+            <br />
+            geek culture.
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[512px] text-left whitespace-nowrap z-[427]">
+            Event Schedule
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[768px] text-left whitespace-nowrap z-[435]">
+            Sponsorship
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[1024px] text-left whitespace-nowrap z-[442]">
+            Refund Policy
+          </span>
+        </div> */}
+        {/* <div className="w-[649.116px] h-[23px] relative z-[443] mt-[-5px] mr-0 mb-0 ml-[614px]">
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-0 text-left whitespace-nowrap z-[428]">
+            Exhibitors
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[256px] text-left whitespace-nowrap z-[436]">
+            Media Partners
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[512px] text-left whitespace-nowrap z-[443]">
+            Code of Conduct
+          </span>
+        </div> */}
+        {/* <div className="w-[1146.8px] h-[48px] relative z-[444] mt-[11px] mr-0 mb-0 ml-[102px]">
+          <div className="w-[48px] h-[48px] bg-[#1f2937] rounded-full absolute top-0 left-0 z-[413]">
+            <div className="w-[20px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/7726e2fa-e0c7-4fb1-8598-5c7cce405196.png)] bg-cover bg-no-repeat relative z-[414] mt-[13.5px] mr-0 mb-0 ml-[14px]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#1f2937] rounded-full absolute top-0 left-[64px] z-[415]">
+            <div className="w-[20px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/6e722b41-8c7f-44a4-b85c-673b5117d433.png)] bg-cover bg-no-repeat relative z-[416] mt-[13.5px] mr-0 mb-0 ml-[14px]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#1f2937] rounded-full absolute top-0 left-[128px] z-[417]">
+            <div className="w-[20px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/4521a355-7128-473b-a8eb-d364b0653b95.png)] bg-cover bg-no-repeat relative z-[418] mt-[13.5px] mr-0 mb-0 ml-[14px]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#1f2937] rounded-full absolute top-0 left-[192px] z-[419]">
+            <div className="w-[20px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/378cf5a2-f5cd-4acc-ab0b-4f2d7d8b908a.png)] bg-cover bg-no-repeat relative z-[420] mt-[13.5px] mr-0 mb-0 ml-[14px]" />
+          </div>
+          <div className="w-[48px] h-[48px] bg-[#1f2937] rounded-full absolute top-0 left-[256px] z-[421]">
+            <div className="w-[20px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/ef65dbf7-71be-4d4b-a149-f9c21a859c26.png)] bg-cover bg-no-repeat relative z-[422] mt-[13.5px] mr-0 mb-0 ml-[14px]" />
+          </div>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[512px] text-left whitespace-nowrap z-[429]">
+            FAQ
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[768px] text-left whitespace-nowrap z-[437]">
+            Press Kit
+          </span>
+          <span className="flex h-[23px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[1024px] text-left whitespace-nowrap z-[444]">
+            Health & Safety
+          </span>
+        </div> */}
+        {/* <span className="block h-[23px] font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] relative text-left whitespace-nowrap z-[430] mt-[-6px] mr-0 mb-0 ml-[614px]">
+          Contact
+        </span>
+        <div className="w-[1232.363px] h-[20px] relative z-[452] mt-[84px] mr-0 mb-0 ml-[102px]">
+          <span className="flex h-[20px] justify-start items-center font-['Poppins'] text-[14px] font-normal leading-[20px] text-[#6b7280] absolute top-0 left-0 text-left whitespace-nowrap z-[446]">
+            © 2025 Bahrain Comic Con. All Rights Reserved.
+          </span>
+          <span className="flex h-[20px] justify-start items-center font-['Poppins'] text-[14px] font-normal leading-[20px] text-[#6b7280] absolute top-[calc(50%-10px)] left-[638.06px] text-left whitespace-nowrap z-[448]">
+            Bahrain International Circuit
+          </span>
+          <span className="flex h-[20px] justify-start items-center font-['Poppins'] text-[14px] font-normal leading-[20px] text-[#6b7280] absolute top-[calc(50%-10px)] left-[880.31px] text-left whitespace-nowrap z-[450]">
+            info@bahraincomiccon.com
+          </span>
+          <span className="flex h-[20px] justify-start items-center font-['Poppins'] text-[14px] font-normal leading-[20px] text-[#6b7280] absolute top-[calc(50%-10px)] left-[1126.5px] text-left whitespace-nowrap z-[452]">
+            +973 1234 5678
+          </span>
+          <div className="w-[10.5px] h-[14px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/43861965-d374-41eb-a019-50b746e7bbdd.png)] bg-cover bg-no-repeat absolute top-[2.75px] left-[619.56px] z-[447]" />
+          <div className="w-[14px] h-[14px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/1aa51e12-b48b-448d-bf6f-98a579fe39dc.png)] bg-cover bg-no-repeat absolute top-[2.75px] left-[858.31px] z-[449]" />
+          <div className="w-[14px] h-[14px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/ca5964b7-10e3-4e2b-b13a-1867856c7cef.png)] bg-cover bg-no-repeat absolute top-[2.75px] left-[1104.5px] z-[451]" />
+        </div> */}
       </div>
     </div>
   );
