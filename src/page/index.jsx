@@ -243,10 +243,10 @@ export default function Main() {
         </div>
       </div>
       <div className="w-[1345px] h-[1533px] text-[0px] relative z-[198] mt-[81.18px] mr-0 mb-0 ml-[48px]">
-        <span className="flex w-[582px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] font-normal leading-[60px] text-[#000] tracking-[2px] relative text-center whitespace-nowrap z-[122] mt-[97px] mr-0 mb-0 ml-[381px]">
+        <span className="flex w-[582px] h-[60px] justify-center items-center font-['Bangers'] text-[96px] font-normal leading-[60px] text-[#000] tracking-[2px] relative text-center whitespace-nowrap z-[122] mt-[97px] mr-0 mb-0 ml-[381px] top-[80px]">
           FEATURED GUESTS
         </span>
-        <span className="flex w-[543px] h-[28px] justify-center items-center font-['Poppins'] text-[32px] font-normal leading-[28px] text-[#000] relative text-center whitespace-nowrap z-[123] mt-[51px] mr-0 mb-0 ml-[399px]">
+        <span className="flex w-[543px] h-[28px] justify-center items-center font-['Poppins'] text-[32px] font-normal leading-[28px] text-[#000] relative text-center whitespace-nowrap z-[123] mt-[51px] mr-0 mb-0 ml-[399px] top-[80px]">
           Meet the stars joining us this year!
         </span>
         <div className="w-[320.59px] h-[60px] bg-[#000] rounded-full relative z-[198] mt-[1167px] mr-0 mb-0 ml-[512px]">
