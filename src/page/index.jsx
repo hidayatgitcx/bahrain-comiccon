@@ -907,26 +907,26 @@ export default function Main() {
           <span className="flex w-[431.83px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#9ca3af] absolute top-[8px] left-0 text-left z-[412]">
             Bringing pop culture to Bahrain. The ultimate celebration of comics, gaming, anime, and everything geek culture.
           </span>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[512px] text-left whitespace-nowrap z-[427]">
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[512px] text-left whitespace-nowrap z-[427]">
             Event Schedule
-          </span>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[768px] text-left whitespace-nowrap z-[435]">
+          </button>
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[768px] text-left whitespace-nowrap z-[435]">
             Sponsorship
-          </span>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[1024px] text-left whitespace-nowrap z-[442]">
+          </button>
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[36px] left-[1024px] text-left whitespace-nowrap z-[442]">
             Refund Policy
-          </span>
+          </button>
         </div>
         <div className="w-[649.116px] h-[23px] relative z-[443] mt-[-5px] mr-0 mb-0 ml-[614px]">
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-0 text-left whitespace-nowrap z-[428]">
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-0 text-left whitespace-nowrap z-[428]">
             Exhibitors
-          </span>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[256px] text-left whitespace-nowrap z-[436]">
+          </button>
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[256px] text-left whitespace-nowrap z-[436]">
             Media Partners
-          </span>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[512px] text-left whitespace-nowrap z-[443]">
+          </button>
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-0 left-[512px] text-left whitespace-nowrap z-[443]">
             Code of Conduct
-          </span>
+          </button>
         </div>
         <div className="w-[1146.8px] h-[48px] relative z-[444] mt-[11px] mr-0 mb-0 ml-[102px]">
           <div className="w-[48px] h-[48px] bg-[#1f2937] rounded-full absolute top-0 left-0 z-[413]">
@@ -944,19 +944,19 @@ export default function Main() {
           <div className="w-[48px] h-[48px] bg-[#1f2937] rounded-full absolute top-0 left-[256px] z-[421]">
             <div className="w-[20px] h-[20px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/ef65dbf7-71be-4d4b-a149-f9c21a859c26.png)] bg-cover bg-no-repeat relative z-[422] mt-[13.5px] mr-0 mb-0 ml-[14px]" />
           </div>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[512px] text-left whitespace-nowrap z-[429]">
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[512px] text-left whitespace-nowrap z-[429]">
             FAQ
-          </span>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[768px] text-left whitespace-nowrap z-[437]">
+          </button>
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[768px] text-left whitespace-nowrap z-[437]">
             Press Kit
-          </span>
-          <span className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[1024px] text-left whitespace-nowrap z-[444]">
+          </button>
+          <button className="flex h-[23px] hover:font-bold hover:text-[#f5e240] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] absolute top-[4px] left-[1024px] text-left whitespace-nowrap z-[444]">
             Health & Safety
-          </span>
+          </button>
         </div>
-        <span className="block h-[23px] hover:font-bold hover:text-[#f5e240] font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] relative text-left whitespace-nowrap z-[430] mt-[-6px] mr-0 mb-0 ml-[614px]">
+        <button className="block h-[23px] hover:font-bold hover:text-[#f5e240] font-['Poppins'] text-[16px] font-normal leading-[23px] text-[#9ca3af] relative text-left whitespace-nowrap z-[430] mt-[-6px] mr-0 mb-0 ml-[614px]">
           Contact
-        </span>
+        </button>
         <div className="w-[1232.363px] h-[20px] relative z-[452] mt-[84px] mr-0 mb-0 ml-[102px]">
           <span className="flex h-[20px] justify-start items-center font-['Poppins'] text-[14px] font-normal leading-[20px] text-[#6b7280] absolute top-0 left-0 text-left whitespace-nowrap z-[446]">
             © 2025 Bahrain Comic Con. All Rights Reserved.
