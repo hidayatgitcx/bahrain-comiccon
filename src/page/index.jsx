@@ -3,14 +3,15 @@ import "./index.css";
 
 export default function Main() {
   return (
-    <div className="main-container w-screen bg-[#000]">
-    <div className="container w-[1440px] h-[10174px] bg-[#000] relative overflow-hidden mx-auto my-0">
+    // <div className="main-container w-screen h-[10180px] bg-[#000]">
+    <div className="main-container w-[1440px] h-[10174px] bg-[#000] relative overflow-hidden mx-auto my-0">
       <div className="w-[1304px] h-[833px] relative z-[90] mt-[55px] mr-0 mb-0 ml-[100px]">
         <div className="w-[63.064px] h-[60.67px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/9336ccfa-764e-4738-bc2d-72e49b9da688.png)] bg-cover bg-no-repeat absolute top-0 left-0 z-[5]" />
         <span className="flex w-[186px] hover:scale-110 h-[60.67px] bg-[url('/assets/logo-main.png')] justify-start items-center font-['Bangers'] text-[25.3040714263916px] font-normal leading-[26.343px] text-[#facc15] tracking-[2.11px] absolute top-[3.991px] left-[10.24px] text-left z-[6]">
         </span>
         <div className="w-[826px] h-[75px] bg-[#080808] rounded-tl-[15px] rounded-tr-[15px] rounded-br-none rounded-bl-none absolute top-px left-[209px] z-[7]">
-          <button className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] hover:text-[20px] font-normal hover:font-bold leading-[24px] text-[#fff] hover:text-[#f5e240] absolute top-[26px] left-[39px] text-left whitespace-nowrap z-[9]">
+          <button
+            className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] hover:text-[20px] font-normal hover:font-bold leading-[24px] text-[#fff] hover:text-[#f5e240] absolute top-[26px] left-[39px] text-left whitespace-nowrap z-[9]">
             Home
           </button>
           <button className="flex h-[24px] justify-start items-center font-['Poppins'] text-[16px] hover:text-[20px] font-normal hover:font-bold leading-[24px] text-[#fff] hover:text-[#f5e240] absolute top-[26px] left-[122px] text-left whitespace-nowrap z-10">
@@ -36,7 +37,7 @@ export default function Main() {
           </button>
         </div>
         
-        <button className="flex w-[188px] hover:scale-110 h-[61px] rounded-md justify-center items-center font-['Poppins'] text-[20px] font-semibold leading-[24px] text-black absolute top-[calc(50%-415px)] left-[1050px] text-center whitespace-nowrap z-[18] bg-red-500"
+        <button className="flex w-[188px] hover:scale-110 h-[61px] rounded-md justify-center items-center font-['Poppins'] text-[20px] font-semibold leading-[24px] text-black absolute top-[calc(50%-415px)] left-[1050px] text-center whitespace-nowrap z-[18]"
           style={{background: "linear-gradient(90deg, rgba(250, 204, 21, 1) 0%, rgba(249, 115, 22, 1) 50%)",}}
                   >
          Buy Tickets
@@ -72,14 +73,14 @@ export default function Main() {
         </div>
         <span className="flex w-[211.387px] h-[29.681px] justify-center items-center font-['Poppins'] text-[21.20070457458496px] font-black leading-[29.681px] text-[#000] tracking-[0.53px] absolute top-[calc(50%--365.7px)] left-[calc(50%-573.03px)] text-center uppercase whitespace-nowrap z-[31]">
           {" "}
-          Buy Tickets Now
+          
         </span>
-        <span className="flex w-[152.36px] h-[29.681px] justify-center items-center font-['Poppins'] text-[21.20070457458496px] font-bold leading-[29.681px] text-[#fff] tracking-[0.53px] absolute top-[calc(50%--365.7px)] left-[calc(50%-210.43px)] text-center uppercase whitespace-nowrap z-[34]">
+        <span className="flex w-[152.36px] h-[29.681px] hover: justify-center items-center font-['Poppins'] text-[21.20070457458496px] font-bold leading-[29.681px] text-[#fff] tracking-[0.53px] absolute top-[calc(50%--365.7px)] left-[calc(50%-210.43px)] text-center uppercase whitespace-nowrap z-[34]">
           {" "}
-          View Guests
+          
         </span>
-        <div className="w-[23.851px] h-[21.201px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/VVx2jqa29y.png)] bg-cover bg-no-repeat absolute top-[785.911px] left-[42.401px] z-30" />
-        <div className="w-[26.501px] h-[21.201px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/q5SX5HAgNP.png)] bg-cover bg-no-repeat absolute top-[785.911px] left-[402.347px] z-[33]" />
+        {/* <div className="w-[23.851px] h-[21.201px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/VVx2jqa29y.png)] bg-cover bg-no-repeat absolute top-[785.911px] left-[42.401px] z-30" />
+        <div className="w-[26.501px] h-[21.201px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/q5SX5HAgNP.png)] bg-cover bg-no-repeat absolute top-[785.911px] left-[402.347px] z-[33]" /> */}
       </div>
       <div className="w-[1240px] h-[260px] text-[0px] bg-[url('assets/updown-line.png')] bg-cover bg-no-repeat rounded-[15px] relative z-[63] mt-[38px] mr-0 mb-0 ml-[100px]">
         <span className="flex w-[220px] h-[20px] justify-center items-center font-['Poppins'] text-[24px] font-bold leading-[20px] text-[#f97316] tracking-[0.7px] relative text-center uppercase whitespace-nowrap top-[40px] z-[35] mt-[39px] mr-0 mb-0 ml-[509px]">
@@ -254,7 +255,7 @@ export default function Main() {
           Meet the stars joining us this year!
         </span>
         <div className="w-[1345px] h-[1533px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/Vbyr3AaNzo.png)] bg-cover bg-no-repeat absolute top-0 left-1/2 translate-x-[-50%] translate-y-0" />
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[103px] right-[979.448px] overflow-hidden z-[125]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[103px] right-[979.448px] overflow-hidden z-[125]">
           <div className="w-[258.854px] h-[295.833px] relative overflow-hidden z-[132] mt-[1.849px] mr-0 mb-0 ml-[1.849px]">
             <div className="w-[97.967px] h-[30.508px] bg-[#f97316] rounded-[9243.867px] relative z-[134] mt-[11.094px] mr-0 mb-0 ml-[146.095px]">
               <span className="flex h-[15.716px] justify-start items-center font-['Poppins'] text-[11.093750953674316px] font-bold leading-[14.792px] text-[#000] absolute top-[7.396px] left-[14.792px] text-left uppercase whitespace-nowrap z-[135]">
@@ -281,7 +282,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/AMApde6o8J.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[130]" />
           </button>
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[395.136px] right-[687.312px] overflow-hidden z-[136]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[395.136px] right-[687.312px] overflow-hidden z-[136]">
           <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/oR6JnUS3ov.png)] bg-cover bg-no-repeat relative overflow-hidden z-[143] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
           <span className="block h-[29.583px] font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left whitespace-nowrap z-[137] mt-[24.036px] mr-0 mb-0 ml-[24.036px]">
             Sakura Tanaka
@@ -301,7 +302,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/auucCK3H4a.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[141]" />
           </button>
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[687.271px] right-[395.177px] overflow-hidden z-[144]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[687.271px] right-[395.177px] overflow-hidden z-[144]">
           <div className="w-[258.854px] h-[295.833px] relative overflow-hidden z-[151] mt-[1.849px] mr-0 mb-0 ml-[1.849px]">
             <div className="w-[97.967px] h-[30.508px] bg-[#f97316] rounded-[9243.867px] relative z-[153] mt-[11.094px] mr-0 mb-0 ml-[146.095px]">
               <span className="flex h-[15.716px] justify-start items-center font-['Poppins'] text-[11.093750953674316px] font-bold leading-[14.792px] text-[#fff] absolute top-[7.396px] left-[14.792px] text-left uppercase whitespace-nowrap z-[154]">
@@ -328,7 +329,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/PJCpRU26pH.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[149]" />
           </div>
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[979.406px] right-[103.042px] overflow-hidden z-[155]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[287px] bottom-[743.083px] left-[979.406px] right-[103.042px] overflow-hidden z-[155]">
           <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/qYa9rniYN5.png)] bg-cover bg-no-repeat relative overflow-hidden z-[162] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
           <span className="block h-[29.583px] font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left whitespace-nowrap z-[156] mt-[24.036px] mr-0 mb-0 ml-[24.037px]">
             Luna Starfire
@@ -348,7 +349,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/WtseLG7Vyd.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[160]" />
           </div>
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[103px] right-[979.448px] overflow-hidden z-[163]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[103px] right-[979.448px] overflow-hidden z-[163]">
           <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/SShxV7JFeh.png)] bg-cover bg-no-repeat relative overflow-hidden z-[170] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
           <span className="flex w-[188.853px] h-[60.091px] justify-start items-center font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left overflow-hidden z-[164] mt-[23.112px] mr-0 mb-0 ml-[24.037px]">
             Alex "ProGamer"
@@ -370,7 +371,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/AiiMfwJ34L.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[168]" />
           </div>
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[395.136px] right-[687.312px] overflow-hidden z-[171]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[395.136px] right-[687.312px] overflow-hidden z-[171]">
           <div className="w-[258.854px] h-[295.833px] relative overflow-hidden z-[178] mt-[1.849px] mr-0 mb-0 ml-[1.849px]">
             <div className="w-[97.967px] h-[30.508px] bg-[#f97316] rounded-[9243.867px] relative z-[180] mt-[11.094px] mr-0 mb-0 ml-[146.095px]">
               <span className="flex h-[15.716px] justify-start items-center font-['Poppins'] text-[11.093750953674316px] font-bold leading-[14.792px] text-[#000] absolute top-[7.396px] left-[14.792px] text-left uppercase whitespace-nowrap z-[181]">
@@ -397,7 +398,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/9itaNBSu73.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[176]" />
           </div>
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[687.271px] right-[395.177px] overflow-hidden z-[182]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[687.271px] right-[395.177px] overflow-hidden z-[182]">
           <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/0J3MNfL63a.png)] bg-cover bg-no-repeat relative overflow-hidden z-[189] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
           <span className="flex w-[174.606px] h-[60.091px] justify-start items-center font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left overflow-hidden z-[183] mt-[23.112px] mr-0 mb-0 ml-[24.037px]">
             Jake "Thunder"
@@ -419,7 +420,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/MPtBVPzVb0.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[187]" />
           </div>
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[979.406px] right-[103.042px] overflow-hidden z-[190]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[13.867px] border-solid border-[1.849px] border-[#f97316] absolute top-[819.5px] bottom-[181px] left-[979.406px] right-[103.042px] overflow-hidden z-[190]">
           <div className="w-[258.854px] h-[295.833px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/DSfdeWXp0a.png)] bg-cover bg-no-repeat relative overflow-hidden z-[197] mt-[1.849px] mr-0 mb-0 ml-[1.849px]" />
           <span className="flex w-[197.792px] h-[60.091px] justify-start items-center font-['Poppins'] text-[22.187501907348633px] font-bold leading-[29.583px] text-[#fff] relative text-left overflow-hidden z-[191] mt-[23.112px] mr-0 mb-0 ml-[24.037px]">
             Mia "GeekQueen"
@@ -441,7 +442,7 @@ export default function Main() {
             <div className="w-[18.49px] h-[14.792px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/WnBVseFddK.png)] bg-cover bg-no-repeat absolute top-[10.169px] left-[45.429px] z-[195]" />
           </div>
         </div>
-        <button className="w-[320.59px] h-[60px] bg-[#000] hover:scale-105 rounded-full relative z-[198] mt-[1167px] top-[100px] mr-0 mb-0 ml-[512px]">
+        <button className="w-[320.59px] h-[60px] bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 rounded-full relative z-[198] mt-[1167px] top-[100px] mr-0 mb-0 ml-[512px]">
           <span className="flex w-[190.438px] h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-black leading-[25px] text-[#f97316] tracking-[0.45px] absolute top-[calc(50%-13px)] left-[calc(50%-77.79px)] text-center uppercase whitespace-nowrap z-[200]">
             {" "}
             See Full Guest List
@@ -456,7 +457,7 @@ export default function Main() {
         Explore activities across two exciting days
       </span>
       <div className="flex w-[1232px] h-[532px] justify-between items-center relative z-[221] mt-[47px] mr-0 mb-0 ml-[104px]">
-        <div className="w-[389.33px] hover:scale-105 hover:cursor-pointer h-[532px] shrink-0 bg-[#facc15] border-[#facc15] rounded-[15px] border-solid border-2 relative overflow-hidden z-[203]">
+        <div className="w-[389.33px] hover:scale-105 hover:shadow-[0_0_20px_5px_#facc15] hover:cursor-pointer h-[532px] shrink-0 bg-[#facc15] border-[#facc15] rounded-[15px] border-solid border-2 relative overflow-hidden z-[203]">
           <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ng7Fi5Dxqm.png)] bg-cover bg-no-repeat relative overflow-hidden z-[204] mt-[2px] mr-0 mb-0 ml-[2px]" />
           <span className="flex w-[319.83px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[208] mt-[98px] mr-0 mb-0 ml-[34px]">
             Show off your costume and win
@@ -478,7 +479,7 @@ export default function Main() {
             Cosplay Contest
           </span>
         </div>
-        <div className="w-[389.33px]  hover:scale-105 hover:cursor-pointer h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[212]">
+        <div className="w-[389.33px]  hover:scale-105 hover:cursor-pointer hover:shadow-[0_0_20px_5px_#facc15] h-[532px] shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[212]">
           <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ZBrY6ygAWZ.png)] bg-cover bg-no-repeat relative overflow-hidden z-[213] mt-[2px] mr-0 mb-0 ml-[2px]" />
           <span className="flex w-[305.23px] h-[95px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[217] mt-[98px] mr-0 mb-0 ml-[34px]">
             Experience the latest games and
@@ -502,7 +503,7 @@ export default function Main() {
             Gaming Arena
           </span>
         </div>
-        <div className="w-[389.34px] h-[532px] hover:scale-105 hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[221]">
+        <div className="w-[389.34px] h-[532px] hover:scale-105 hover:shadow-[0_0_20px_5px_#facc15] hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[221]">
           <div className="w-[385.34px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/SjOZL7cfux.png)] bg-cover bg-no-repeat relative overflow-hidden z-[222] mt-[2px] mr-0 mb-0 ml-[2px]" />
           <span className="flex w-[299.1px] h-[95px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[226] mt-[98px] mr-0 mb-0 ml-[34px]">
             Discover incredible artwork and meet talented artists. Commission custom pieces and purchase unique merchandise.
@@ -522,7 +523,7 @@ export default function Main() {
         </div>
       </div>
       <div className="flex w-[1232px] h-[532px] justify-between items-center relative z-[248] mt-[32px] mr-0 mb-0 ml-[104px]">
-        <div className="w-[389.33px] h-[532px] hover:scale-105 hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[230]">
+        <div className="w-[389.33px] h-[532px] hover:shadow-[0_0_20px_5px_#facc15] hover:scale-105 hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[230]">
           <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/W3awob0hMf.png)] bg-cover bg-no-repeat relative overflow-hidden z-[231] mt-[2px] mr-0 mb-0 ml-[2px]" />
           <span className="flex w-[308.29px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[235] mt-[98px] mr-0 mb-0 ml-[34px]">
             Shop exclusive merchandise from top brands. Limited edition collectibles, comics, figures, and pop culture items.
@@ -540,7 +541,7 @@ export default function Main() {
             Merch Marketplace
           </span>
         </div>
-        <div className="w-[389.33px] h-[532px] hover:scale-105 hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[239]">
+        <div className="w-[389.33px] h-[532px] hover:scale-105 hover:shadow-[0_0_20px_5px_#facc15] hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[239]">
           <div className="w-[385.33px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/wRg7Zsxrhq.png)] bg-cover bg-no-repeat relative overflow-hidden z-[240] mt-[2px] mr-0 mb-0 ml-[2px]" />
           <span className="flex w-[315.45px] h-[71px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[244] mt-[98px] mr-0 mb-0 ml-[34px]">
             Learn from industry experts and master new skills. Interactive sessions covering art, writing, cosplay, and more.
@@ -558,7 +559,7 @@ export default function Main() {
             Workshops & Panels
           </span>
         </div>
-        <div className="w-[389.34px] h-[532px] hover:scale-105 hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[248]">
+        <div className="w-[389.34px] h-[532px] hover:shadow-[0_0_20px_5px_#facc15] hover:scale-105 hover:cursor-pointer shrink-0 bg-[#facc15] rounded-[15px] border-solid border-2 border-[#facc15] relative overflow-hidden z-[248]">
           <div className="w-[385.34px] h-[256px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/zzfWyGVSvB.png)] bg-cover bg-no-repeat relative overflow-hidden z-[249] mt-[2px] mr-0 mb-0 ml-[2px]" />
           <span className="flex w-[313.73px] h-[95px] justify-start items-center font-['Poppins'] text-[16px] font-normal leading-[24px] text-[#000] relative text-left z-[253] mt-[98px] mr-0 mb-0 ml-[34px]">
             Get up close with your favorite celebrities. Photo opportunities, autograph sessions, and exclusive Q&A panels.
@@ -593,7 +594,7 @@ export default function Main() {
             Most Popular
           </span>
         </div>
-        <div className="bg-[#000] rounded-[24px] hover:scale-105 hover:cursor-pointer hover:mt-[17px] absolute top-[285px] bottom-[187px] left-[470.33px] right-[446.41px] z-[315]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] rounded-[24px] hover:scale-105 hover:cursor-pointer hover:mt-[17px] absolute top-[285px] bottom-[187px] left-[470.33px] right-[446.41px] z-[315]">
           <div className="w-[88px] h-[88px] bg-[#dc2626] rounded-full relative z-[316] mt-[39.6px] mr-0 mb-0 ml-[170.12px]">
             <div className="w-[37.13px] h-[33.004px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/MiTwxf22DW.png)] bg-cover bg-no-repeat relative z-[317] mt-[26.13px] top-[25px] mr-0 mb-0 ml-[25.44px]" />
           </div>
@@ -639,7 +640,7 @@ export default function Main() {
           </span>
           <div className="w-[15.4px] h-[17.6px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/b317cf8c-324a-4d4c-bf13-a836c11774f8.png)] bg-cover bg-no-repeat absolute top-[584.1px] left-[39.6px] z-[339]" />
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[24px] absolute top-[321px] bottom-[223px] left-[49px] right-[906.67px] z-[259]">
+        <div className="bg-[#000] hover:shadow-[0_0_20px_10px_#000] hover:scale-105 hover:cursor-pointer rounded-[24px] absolute top-[321px] bottom-[223px] left-[49px] right-[906.67px] z-[259]">
           <div className="w-[80px] h-[80px] bg-[#dc2626] rounded-full relative z-[260] mt-[34px] mr-0 mb-0 ml-[154.66px]">
             <div className="w-[33.75px] h-[30px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ZhQjGXtg7Q.png)] bg-cover bg-no-repeat relative z-[261] mt-[23.75px] top-[25px] mr-0 mb-0 ml-[23.12px]" />
           </div>
@@ -681,7 +682,7 @@ export default function Main() {
           </span>
           <div className="w-[14px] h-[16px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/X7R5x9Nn38.png)] bg-cover bg-no-repeat absolute top-[485px] left-[34px] z-[280]" />
         </div>
-        <div className="bg-[#000] hover:scale-105 hover:cursor-pointer rounded-[24px] absolute top-[321px] bottom-[223px] left-[930.59px] right-[25.07px] z-[284]">
+        <div className="bg-[#000] hover:scale-105 hover:shadow-[0_0_20px_10px_#000] hover:cursor-pointer rounded-[24px] absolute top-[321px] bottom-[223px] left-[930.59px] right-[25.07px] z-[284]">
           <div className="w-[80px] h-[80px] bg-[#dc2626] rounded-full relative z-[285] mt-[34px] mr-0 mb-0 ml-[154.67px]">
             <div className="w-[33.75px] h-[30px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/ugU82jxtCt.png)] bg-cover bg-no-repeat relative z-[286] mt-[23.75px] top-[25px] mr-0 mb-0 ml-[23.12px]" />
           </div>
@@ -743,7 +744,7 @@ export default function Main() {
       <span className="flex w-[540px] h-[28px] justify-center items-center font-['Poppins'] text-[24px] font-normal leading-[28px] text-[#9ca3af] relative text-center whitespace-nowrap z-[350] mt-[32px] mr-0 mb-0 ml-[451px]">
         Watch highlights from last year's Comic Con!
       </span>
-      <div className="w-[1152px] h-[651.5px] hover:scale-105 hover:cursor-pointer bg-[rgba(255,255,255,0)] rounded-[24px] border-solid border-4 border-[#f97316] relative overflow-hidden z-[361] mt-[52px] mr-0 mb-0 ml-[145px]">
+      <div className="w-[1152px] hover:shadow-[0_0_20px_10px_#f97316] h-[651.5px] hover:scale-105 hover:cursor-pointer bg-[rgba(255,255,255,0)] rounded-[24px] border-solid border-2 border-[#f97316] relative overflow-hidden z-[361] mt-[52px] mr-0 mb-0 ml-[145px]">
         <div className="w-[1144px] h-[643.5px] relative z-[362] mt-[4px] mr-0 mb-0 ml-[4px]">
           <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/85a223c3-f9b4-428c-be33-7f5c1a6fbb51.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[363]" />
           <button className="bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.0)] absolute top-0 bottom-0 left-0 right-0 z-[364]">
@@ -787,34 +788,34 @@ export default function Main() {
           Amazing moments from our incredible community
         </span>
         <div className="flex w-[1232px] h-[288px] justify-between items-center relative z-[375] mt-[65px] mr-0 mb-0 ml-[104px]">
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[369]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:shadow-[0_0_20px_2px_#0533CA] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[369]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/jKnu82mWKZ.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[370]" />
           </div>
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[371]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:shadow-[0_0_20px_2px_#CA0533] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[371]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/njyds7fT0f.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[372]" />
           </div>
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[373]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:shadow-[0_0_20px_2px_#0533CA] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[373]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/xGGQWSE6Fp.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[374]" />
           </div>
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[375]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:shadow-[0_0_20px_2px_#f97316] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[375]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/iZH3Kusqj8.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[376]" />
           </div>
         </div>
         <div className="flex w-[1232px] h-[288px] justify-between items-center relative z-[383] mt-[16px] mr-0 mb-0 ml-[104px]">
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[377]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:shadow-[0_0_20px_2px_#fff] hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[377]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/QgQF8crLKK.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[378]" />
           </div>
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[379]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:shadow-[0_0_20px_2px_#3A05CA] hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[379]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/Y3Ei8qof13.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[380]" />
           </div>
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[381]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:shadow-[0_0_20px_2px_#fff] hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[381]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/U6c6YzLqdY.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[382]" />
           </div>
-          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[383]">
+          <div className="w-[296px] h-[288px] shrink-0 rounded-[16px] hover:scale-105 hover:shadow-[0_0_20px_2px_#CA0533] hover:cursor-pointer hover:border-[#f97316] relative overflow-hidden z-[383]">
             <div className="bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-02/smBjiDPJ9N.png)] bg-cover bg-no-repeat absolute top-0 bottom-0 left-0 right-0 overflow-hidden z-[384]" />
           </div>
         </div>
-        <button className="w-[301.25px] h-[60px] hover:scale-105 hover:cursor-pointer bg-[#facc15] rounded-full relative z-[385] mt-[65px] mr-0 mb-0 ml-[569.38px]">
+        <button className="w-[301.25px] h-[60px] hover:scale-105 hover:cursor-pointer hover:shadow-[0_0_20px_2px_#facc15] bg-[#facc15] rounded-full relative z-[385] mt-[65px] mr-0 mb-0 ml-[569.38px]">
           <span className="flex w-[189.347px] h-[25px] justify-center items-center font-['Poppins'] text-[18px] font-black leading-[25px] text-[#000] tracking-[0.45px] absolute top-[calc(50%-13px)] left-[calc(50%-78.38px)] text-center uppercase whitespace-nowrap z-[387]">
             {" "}
             View Full Gallery
@@ -976,6 +977,6 @@ export default function Main() {
         </div>
       </div>
     </div>
-    </div>
+    // </div> 
   );
 }
