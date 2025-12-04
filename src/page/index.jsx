@@ -3,7 +3,7 @@ import "./index.css";
 
 export default function Main() {
   return (
-    // <div className="main-container w-screen h-[10180px] bg-[#000]">
+    <div className="main-container w-screen h-[10180px] bg-[#000]">
     <div className="main-container w-[1440px] h-[10174px] bg-[#000] relative overflow-hidden mx-auto my-0">
       <div className="w-[1304px] h-[833px] relative z-[90] mt-[55px] mr-0 mb-0 ml-[100px]">
         <div className="w-[63.064px] h-[60.67px] bg-[url(https://codia-f2c.s3.us-west-1.amazonaws.com/default/image/2025-12-02/9336ccfa-764e-4738-bc2d-72e49b9da688.png)] bg-cover bg-no-repeat absolute top-0 left-0 z-[5]" />
@@ -977,6 +977,6 @@ export default function Main() {
         </div>
       </div>
     </div>
-    // </div> 
+   </div> 
   );
 }
